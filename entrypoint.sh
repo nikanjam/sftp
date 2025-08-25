@@ -19,7 +19,6 @@ chown -R www-data:www-data /var/www/html
   echo 'AllowTcpForwarding no'
   echo 'Match User www-data'
   echo '  ChrootDirectory %h'
-  echo '  ForceCommand internal-sftp'
   echo '  AllowTcpForwarding no'
   echo '  PermitTunnel no'
   echo '  AllowAgentForwarding no'
